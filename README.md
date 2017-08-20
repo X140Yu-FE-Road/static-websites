@@ -1,7 +1,7 @@
 # static-websites
 
-Some static website I wrote based on Sketch files to practice HTML & CSS skills Edit
-Add topics
+Some static website I wrote based on Sketch files to practice HTML & CSS skills.
+
 
 ## List
 
