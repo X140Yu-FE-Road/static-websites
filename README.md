@@ -2,9 +2,4 @@
 
 Some static website I wrote based on Sketch files to practice HTML & CSS skills.
 
-
-## List
-
-- [01-airbnb](https://github.com/X140Yu-FE-Road/static-websites/tree/master/01)
-
-![](http://oo8znht6g.bkt.clouddn.com/20170821003539_hGQrbd_Screenshot.png)
+[Visit website](https://road-to-fe.github.io/static-websites/)
