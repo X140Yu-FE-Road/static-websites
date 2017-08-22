@@ -1,16 +1,20 @@
 import React, { Component } from 'react'
-import { Route, NavLink } from 'react-router-dom'
-import StaticPage1 from '../01'
+import HomeItem from './homeItem'
+import pages from '../pages'
+import 'normalize.css'
+import './home.css'
 
 class Home extends Component {
   render() {
+    const homeItems = pages.map((page, key) => {
+      return <HomeItem name={page.name} link={page.link} key={key} index={key} />
+    })
     return (
       <div>
-        <ul>
-          <li><NavLink exact to="/">Home</NavLink></li>
-          <li><NavLink exact to="/01">01</NavLink></li>
-        </ul>
-        <Route exact path="/01" component={StaticPage1}/>
+        <div className="home">
+          <h1>List</h1>
+          {homeItems}
+        </div>
       </div>
     )
   }

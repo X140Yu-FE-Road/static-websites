@@ -1,0 +1,13 @@
+.home {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home ul,
+.home ul li {
+  list-style: inside;
+  margin: 0;
+  padding: 0;
+}
