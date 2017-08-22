@@ -4,7 +4,7 @@
   "description": "X140Yu's road to be a Front-End developer.",
   "main": "index.js",
   "repository": "git@github.com:X140Yu-FE-Road/static-websites.git",
-  "homepage": "https://road-to-fe.github.io/static-websites",
+  "homepage": "https://road-to-fe.github.io/static-websites/",
   "author": "X140Yu <zhaoxinyu1994@gmail.com>",
   "license": "MIT",
   "dependencies": {

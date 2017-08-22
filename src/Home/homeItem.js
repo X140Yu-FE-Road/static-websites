@@ -6,7 +6,7 @@ class HomeItem extends Component {
   render() {
     return (
       <div>
-        <NavLink exact to={"/" + String(this.props.index + 1)}>
+        <NavLink exact to={"/static-websites/" + String(this.props.index + 1)}>
           {this.props.index + 1} - {this.props.name}
         </NavLink>
       </div>      
