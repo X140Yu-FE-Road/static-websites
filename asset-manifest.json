@@ -1,6 +1,14 @@
 {
   "main.css": "static/css/main.39bc7ea5.css",
   "main.css.map": "static/css/main.39bc7ea5.css.map",
-  "main.js": "static/js/main.2e01de6b.js",
-  "main.js.map": "static/js/main.2e01de6b.js.map"
+  "main.js": "static/js/main.78506ecf.js",
+  "main.js.map": "static/js/main.78506ecf.js.map",
+  "static/media/cover1.svg": "static/media/cover1.752fa540.svg",
+  "static/media/cover2.svg": "static/media/cover2.dc9ccac7.svg",
+  "static/media/icon-calendar.svg": "static/media/icon-calendar.4049c91e.svg",
+  "static/media/icon-fb.svg": "static/media/icon-fb.d84db517.svg",
+  "static/media/icon-guest.svg": "static/media/icon-guest.88986ae9.svg",
+  "static/media/icon-search.svg": "static/media/icon-search.e1625d76.svg",
+  "static/media/log.svg": "static/media/log.698d0ffb.svg",
+  "static/media/logo-small.svg": "static/media/logo-small.85ba9f28.svg"
 }
