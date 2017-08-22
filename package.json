@@ -1,12 +1,17 @@
 {
-  "name": "sense",
-  "version": "0.1.0",
-  "private": true,
+  "name": "road-to-fe",
+  "version": "0.0.1",
+  "description": "X140Yu's road to be a Front-End developer.",
+  "main": "index.js",
+  "repository": "git@github.com:X140Yu-FE-Road/static-websites.git",
   "homepage": "https://road-to-fe.github.io/static-websites/01",
+  "author": "X140Yu <zhaoxinyu1994@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.2",
     "react-scripts": "1.0.11"
   },
   "scripts": {
