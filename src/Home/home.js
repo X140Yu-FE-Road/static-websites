@@ -10,11 +10,13 @@ class Home extends Component {
       return <HomeItem name={page.name} link={page.link} key={key} index={key} />
     })
     return (
-      <div>
-        <div className="home">
-          <h1>List</h1>
-          {homeItems}
-        </div>
+      <div className="home">
+        <h1>List</h1>
+        {homeItems}
+        <footer>
+          <a href="https://github.com/Road-To-FE/static-websites" target="_blank" rel="noopener noreferrer">Road-To-FE/static-websites</a>
+          <a href="https://zhaoxinyu.me" target="_blank" rel="noopener noreferrer">@X140Yu</a>
+        </footer>
       </div>
     )
   }
