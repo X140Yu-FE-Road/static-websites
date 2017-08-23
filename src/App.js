@@ -6,12 +6,12 @@ import pages from './pages'
 class App extends Component {
   render() {
     const routes = pages.map((page, key) => {
-      return <Route exact path={"/static-websites/" + String(key + 1)} component={page.component} key={key} />
+      return <Route exact path={process.env.PUBLIC_URL + '/' + String(key + 1)} component={page.component} key={key} />
     })
     return (
       <Router>
         <div>
-          <Route exact path="" component={Home} />
+          <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
           {routes}
         </div>
       </Router>
