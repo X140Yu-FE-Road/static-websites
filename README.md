@@ -2,7 +2,7 @@
 
 Some static website I wrote based on Sketch files to practice HTML & CSS skills.
 
-[Visit website](https://road-to-fe.github.io/static-websites/)
+[Visit website](https://fe-playland.github.io/static-websites/)
 
 ## Dev
 
