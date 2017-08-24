@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './index.css'
+import './style.css'
 import logo from './svgs/log.svg'
 import iconSearch from './svgs/icon-search.svg'
 import iconCalendar from './svgs/icon-calendar.svg'
@@ -12,7 +12,7 @@ import iconSmall from './svgs/logo-small.svg'
 class StaticSite1 extends Component {
   render() {
     return (
-      <div>
+      <div className="StaticSite1">
         <header>
           <div id="top-header">
             <div id="top-header-left">

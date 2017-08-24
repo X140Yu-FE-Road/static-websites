@@ -1,0 +1,13 @@
+.StaticPage2 {}
+
+.StaticPage2 .hero header {
+  display: flex;
+  margin: 0;
+  padding: 0 133px;
+}
+
+.StaticPage2 .hero header h1 {}
+
+.StaticPage2 .hero header li {
+  display: inline;
+}
