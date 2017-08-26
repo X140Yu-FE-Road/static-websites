@@ -19,7 +19,7 @@ class StaticPage2 extends Component {
               <li>Download</li>
             </ul>
           </header>
-          <body>
+          <div className="body">
             <div className="description">
               <h1>New Era of Messaging Secure System Messaging</h1>
               <h2>Chat app messaging and powerful than any other application. you can enjoy free call and free chat anytime and forever</h2>
@@ -30,7 +30,7 @@ class StaticPage2 extends Component {
               <img src={heroIcons} alt="" />
               <img src={heroiPhone} alt="" />
             </div>
-          </body>
+          </div>
         </div>
       </div>
     )
