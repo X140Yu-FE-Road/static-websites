@@ -21,8 +21,8 @@ class StaticPage2 extends Component {
           </header>
           <div className="body">
             <div className="description">
-              <h1>New Era of Messaging Secure System Messaging</h1>
-              <h2>Chat app messaging and powerful than any other application. you can enjoy free call and free chat anytime and forever</h2>
+              <h1>New Era of Messaging <br /> Secure System Messaging</h1>
+              <h2>Chat app messaging and powerful than any other <br /> application. you can enjoy free call and free chat anytime <br/> and forever</h2>
               <img src={iOSBadge} alt="iOS Badge" />
               <img src={androidBadge} alt="Android Badge" />
             </div>
