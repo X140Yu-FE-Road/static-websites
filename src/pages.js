@@ -1,5 +1,6 @@
 import StaticPage1 from './1'
 import StaticPage2 from './2'
+import FreeStyle from './freestyle'
 
 const pages = [
   {

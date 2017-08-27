@@ -8,9 +8,9 @@ class HomeItem extends Component {
     return (
       <div className="homeItem">
         <p>{this.props.index + 1}.</p>
-        <NavLink exact to={process.env.PUBLIC_URL + '/' + String(this.props.index + 1)}>
+        <a href={process.env.PUBLIC_URL + '/' + String(this.props.index + 1) + '/index.html'}>
           {this.props.name}
-        </NavLink>
+        </a>
         <a href={this.props.link} target="_blank" rel="noopener noreferrer">link</a>
       </div>
     )

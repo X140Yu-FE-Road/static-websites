@@ -1,5 +1,9 @@
 /* .StaticPage2 { */
 
+body {
+  margin: 0;
+}
+
 .StaticPage2 .hero {
   background: linear-gradient(135deg, #667EEA, #764BA2);
   min-height: 500px;
@@ -24,14 +28,12 @@
   font-size: 18px;
 }
 
-.StaticPage2 .hero .body {
+.StaticPage2 .hero .description-container {
   margin: 2em 133px;
   height: 350px;
   display: flex;
   justify-content: space-between;
 }
-
-.StaticPage2 .hero .description {}
 
 .StaticPage2 .hero h1 {
   font-size: 36px;
