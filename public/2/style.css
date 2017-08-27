@@ -141,7 +141,7 @@ body {
 .StaticPage2 #how-it-work .items {
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
+  width: 800px;
 }
 
 .StaticPage2 #how-it-work .item {
@@ -174,8 +174,6 @@ body {
   justify-content: center;
 }
 
-.StaticPage2 #download img:first-child {}
-
 .StaticPage2 #download .detail {
   margin: 0 10em;
 }
@@ -201,4 +199,24 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 1em 0;
+}
+
+.StaticPage2 footer {
+  display: flex;
+  background-color: #715795;
+  color: white;
+  justify-content: space-around;
+}
+
+.StaticPage2 p {
+  font-size: 20px;
+}
+
+.StaticPage2 footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.StaticPage2 footer ul li {
+  margin: .8em 0;
 }
