@@ -1,0 +1,68 @@
+/* .StaticPage2 { */
+
+body {
+  margin: 0;
+}
+
+.StaticPage2 .hero {
+  background: linear-gradient(135deg, #667EEA, #764BA2);
+  min-height: 500px;
+  overflow: hidden;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.StaticPage2 .hero header {
+  display: flex;
+  margin: 0;
+  padding: 0 133px;
+}
+
+.StaticPage2 .hero header ul {
+  padding-top: 1.3em;
+}
+
+.StaticPage2 .hero header li {
+  display: inline;
+  margin: 2em 1.8em;
+  font-size: 18px;
+}
+
+.StaticPage2 .hero .description-container {
+  margin: 2em 133px;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.StaticPage2 .hero h1 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.StaticPage2 .hero h2 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 29px;
+  padding-bottom: 2em;
+}
+
+.StaticPage2 .hero .description img {
+  padding: 0em 1em;
+  padding-left: 0;
+}
+
+.StaticPage2 .hero .description-iPhone {
+  position: relative;
+  top: -3em;
+}
+
+.StaticPage2 .hero .description-iPhone img {
+  display: block;
+}
+
+.StaticPage2 .hero .description-iPhone img:last-child {
+  position: relative;
+  top: -120px;
+  left: 70px;
+}
