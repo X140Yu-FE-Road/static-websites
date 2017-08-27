@@ -194,3 +194,11 @@ body {
 .StaticPage2 #download .detail img {
   margin-right: 1em;
 }
+
+.StaticPage2 #brands {
+  background-color: #D2D2D2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 0;
+}
