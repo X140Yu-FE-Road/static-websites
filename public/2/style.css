@@ -108,3 +108,61 @@ body {
   font-size: 24px;
   color: #7A7A7A;
 }
+
+.StaticPage2 #how-it-work {
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #53467B;
+}
+
+.StaticPage2 #how-it-work .container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.StaticPage2 #how-it-work h1 {
+  font-weight: normal;
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+.StaticPage2 #how-it-work h2 {
+  margin: .3em 0;
+}
+
+.StaticPage2 #how-it-work .items p {
+  margin: .3em 0;
+  color: #7A7A7A;
+}
+
+.StaticPage2 #how-it-work .items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.StaticPage2 #how-it-work .item {
+  margin: 20px;
+}
+
+.StaticPage2 #how-it-work #video {
+  margin: 0 15em;
+}
+
+.StaticPage2 #how-it-work #video #play {
+  display: flex;
+  align-items: center;
+  margin: 0 1em;
+}
+
+.StaticPage2 #how-it-work #video #play img {
+  width: 36px;
+  height: 36px;
+}
+
+.StaticPage2 #how-it-work #video p {
+  margin: 0 1em;
+}
