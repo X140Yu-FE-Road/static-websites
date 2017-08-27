@@ -149,7 +149,7 @@ body {
 }
 
 .StaticPage2 #how-it-work #video {
-  margin: 0 8em;
+  margin: 0 8em 2em 8em;
 }
 
 .StaticPage2 #how-it-work #video #play {
@@ -165,4 +165,32 @@ body {
 
 .StaticPage2 #how-it-work #video p {
   margin: 0 1em;
+}
+
+.StaticPage2 #download {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.StaticPage2 #download img:first-child {}
+
+.StaticPage2 #download .detail {
+  margin: 0 10em;
+}
+
+.StaticPage2 #download h1 {
+  color: #434343;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.StaticPage2 #download p {
+  color: #7A7A7A;
+  font-size: 24px;
+}
+
+.StaticPage2 #download .detail img {
+  margin-right: 1em;
 }
